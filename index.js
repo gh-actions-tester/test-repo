@@ -1,2 +1,7 @@
-console.log("Hello world!");
-console.log("and print another one");
+const sum = (a, b) => {
+    return a + b;
+};
+
+module.exports = {
+    sum,
+};
